@@ -1,0 +1,281 @@
+#main-header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 5px solid yellow;
+    
+}
+
+#logo-header {
+    width: 200px;
+   height: 50px;
+   padding: 10px
+  
+    
+}
+
+#handprint-logo-header {
+    width: 100px;
+    height: 60px;
+    
+}
+
+#logo-container {
+display: flex;
+align-items: center;
+width: 100%;
+max-width: 768px; 
+margin: 0 auto;
+overflow: auto; 
+gap: 10px;
+}
+
+
+#navbar-ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 20px; 
+  
+}
+
+
+
+.navbutton {
+margin-left: 20px;
+font-family: "Bebas Neue", Arial Narrow, Arial, sans-serif;
+font-weight: bold;
+font-size: 2em;
+text-decoration: none;
+color: black;
+white-space: nowrap;
+flex-shrink: 1;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    #navbar-ul  {
+        flex-direction: column; 
+        align-items: center;
+        margin-top: 10px;       
+        gap: 10px;  
+    }
+    
+   #navbar-ul  {
+        margin: 5px 0;
+        font-size: 14px;
+   }
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin: 0;
+  }
+
+ 
+
+article {
+    background-color: white;
+    padding: 20px;
+}
+
+
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.gallery, .performances, .films {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .films, .gallery, .performances {
+        gap: 15px;
+    }
+    
+    .gallery-info, .imogen-heap-info, .film-info {
+        text-align: center;
+    }
+}
+
+.gallery-info, .imogen-heap-info, .swan-lake-info , .film-info {
+    font-family: "Playfair Display";
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+
+
+#events-header {
+    font-family: "Bebas Neue", Arial Narrow, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    color: black;
+    text-align: left;
+    margin-left: 20px;
+ 
+}
+
+
+#bryant-giles-header{
+    font-family: "Bebas Neue", Arial Narrow, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+    margin: 0px;
+}
+
+#bryant-giles-pic {
+    width: 200px;
+    height: 250px;
+    
+    
+}
+
+#henri-matisse-header {
+    font-family: "Bebas Neue", Arial Narrow, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+    text-align: left;
+    margin: 0px;
+}
+
+#henri-matisse-pic {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#imogen-heap-live-header {
+    font-family: "Bebas Neue", Arial Narrow, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+    text-align: centre;
+    margin: 0px;
+}
+
+#imogen-heap-live-pic {
+    width: 260px;
+    height: 150px;
+  
+}
+
+#imogen-heap-tickets {
+    margin-bottom: 20px;
+}
+
+#swan-lake-header {
+    font-family: "Bebas Neue", Arial Narrow, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+    text-align: centre;
+    margin: 0px;
+}
+
+
+#swan-lake-pic {
+    width: 260px;
+    height: 150px;
+    
+}
+
+
+
+#film-header {
+    font-family: "Bebas Neue", Arial Narrow, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+    text-align: center;
+}
+
+#masculin_feminin_poster {
+    width: 200px;
+    height: 260px;
+    margin-left: 20px;
+}
+
+
+
+.magazine {
+    text-align: center;
+}
+
+#magazine-header {
+    font-family:"Bebas Neue", Arial Narrow, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+}
+.first_name {
+    font-family: comic-sans;
+}
+
+
+#logo-footer {
+    width: 200px;
+    height: 50px;
+    padding: 10px; 
+ 
+}
+#handprint-logo-footer {
+width: 100px;
+height: 60px;
+
+}
+
+#footer-ul {
+display: flex;
+list-style: none;
+padding: 0;
+font-family: "Bebas Neue", Arial Narrow, Arial, sans-serif;
+font-weight: bold;
+font-size: 1.5em;
+}
+
+#footer-ul > div > li > a{
+    text-decoration: none;
+    color: black;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+ 
+}
+
+
+footer {
+    background-color: white;
+    color: white;
+    padding: 20px;
+    border-top: 5px solid blue;
+    border-bottom: 5px solid yellow;
+}
+
+
+
